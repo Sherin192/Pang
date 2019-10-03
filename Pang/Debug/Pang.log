@@ -1,8 +1,0 @@
-﻿  ball.cpp
-c:\users\przemek\desktop\c++\pang\pang\ball.cpp(13): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
-c:\users\przemek\desktop\c++\pang\pang\ball.cpp(116): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
-  Game.cpp
-  EndScreen.cpp
-  Generazione del codice in corso...
-  Pang.vcxproj -> C:\Users\Przemek\Desktop\C++\Pang\Debug\Pang.exe
-  Pang.vcxproj -> C:\Users\Przemek\Desktop\C++\Pang\Debug\Pang.pdb (Partial PDB)
