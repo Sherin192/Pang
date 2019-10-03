@@ -3,7 +3,6 @@
 
 void Game::Start()
 {
-	SideScrollBar::counter = 0;
 	if (gameState != Uninzialized)
 	{
 		return;

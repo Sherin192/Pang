@@ -138,7 +138,6 @@
     <ClCompile Include="Paddle.cpp" />
     <ClCompile Include="paddleAI.cpp" />
     <ClCompile Include="ScoreBoard.cpp" />
-    <ClCompile Include="ScrolingSideBar.cpp" />
     <ClCompile Include="SplashScreen.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -155,7 +154,6 @@
     <ClInclude Include="Paddle.h" />
     <ClInclude Include="paddleAI.h" />
     <ClInclude Include="ScoreBoard.h" />
-    <ClInclude Include="ScrolingSideBar.h" />
     <ClInclude Include="SplashScreen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -45,9 +45,6 @@
     <ClCompile Include="ScoreBoard.cpp">
       <Filter>File di risorse</Filter>
     </ClCompile>
-    <ClCompile Include="ScrolingSideBar.cpp">
-      <Filter>File di risorse</Filter>
-    </ClCompile>
     <ClCompile Include="paddleAI.cpp">
       <Filter>File di risorse</Filter>
     </ClCompile>
@@ -90,9 +87,6 @@
       <Filter>File di intestazione</Filter>
     </ClInclude>
     <ClInclude Include="ScoreBoard.h">
-      <Filter>File di intestazione</Filter>
-    </ClInclude>
-    <ClInclude Include="ScrolingSideBar.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
     <ClInclude Include="paddleAI.h">
