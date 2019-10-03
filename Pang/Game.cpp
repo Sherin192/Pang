@@ -59,7 +59,7 @@ void Game::Start()
 	//-----------------------------------------------------------------------------------------------------------------
 
 	gameState = ShowingMenu;
-	music.openFromFile("intro.ogg");
+	music.openFromFile("Sounds/intro.ogg");
 	music.setLoop(true);
 	music.play();
 	CountDown::elapsedTime = 0.0f;							//sets the count down time to 0
@@ -200,7 +200,7 @@ void Game::ShowMainMenu()
 	{
 	case MainMenu::Play:
 		gameState = Game::Playing;
-		music.openFromFile("level1.ogg");
+		music.openFromFile("Sounds/level1.ogg");
 		music.play();
 		gameObjectManager.elapsedTime.restart();
 		break;

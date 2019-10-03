@@ -4,9 +4,9 @@
 Ball::Ball() :elapsedTimeSinceStart(0.0f), moveX(0.0f), moveY(0.0f), velocity(330.0f), maxVelocity(500.0f)
 {
 	load("images/yellow-ball-30.png");
-	buffer.loadFromFile("sound.wav");
+	buffer.loadFromFile("Sounds/sound.wav");
 	sound.setBuffer(buffer);
-	losebuffer.loadFromFile("losepoint.wav");
+	losebuffer.loadFromFile("Sounds/losepoint.wav");
 	losepoint.setBuffer(losebuffer);
 	//sound.play();
 	getSprite().setOrigin(15, 15);

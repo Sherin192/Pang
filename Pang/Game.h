@@ -10,7 +10,6 @@
 #include "ScoreBoard.h"
 #include "CountDown.h"
 #include "EndScreen.h"
-#include "ScrolingSideBar.h"
 #include "GameObjectManager.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
