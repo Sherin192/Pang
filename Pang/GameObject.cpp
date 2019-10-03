@@ -4,9 +4,7 @@
 GameObject::GameObject() : _isLoaded(false)
 {
 }
-GameObject::~GameObject()
-{
-}
+
 void GameObject::load(std::string fileName)
 {
 	if (!image.loadFromFile(fileName))

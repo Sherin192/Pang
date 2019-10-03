@@ -6,10 +6,7 @@ CountDown::CountDown()
 	getSprite().setTextureRect(sf::IntRect(3 * 64, 0, 64, 64));
 	getSprite().setOrigin(32, 32);
 }
-CountDown::~CountDown()
-{
 
-}
 void CountDown::update(float elapsedTime)
 {
 	this->elapsedTime += elapsedTime;

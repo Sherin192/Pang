@@ -4,7 +4,7 @@
 class GameObjectManager
 {
 public:
-	GameObjectManager();
+	GameObjectManager() = default;
 	~GameObjectManager();
 	sf::Clock elapsedTime;
 	void add(std::string name, GameObject* gameObject);

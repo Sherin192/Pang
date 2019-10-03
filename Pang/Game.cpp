@@ -59,18 +59,10 @@ void Game::Start()
 	//---------------------------------------------- End --------------------------------------------------------------
 	//-----------------------------------------------------------------------------------------------------------------
 
-	/*if (!splashShowed)										//makes sure the splash screen is shown only once
-	{	
-		splashShowed = true;
-		gameState = ShowingSplash;							
-	}
-	else													//goes directly to the menu 
-	{*/
-		gameState = ShowingMenu;
-	//}
-		music.openFromFile("intro.ogg");
-		music.setLoop(true);
-		music.play();
+	gameState = ShowingMenu;
+	music.openFromFile("intro.ogg");
+	music.setLoop(true);
+	music.play();
 	CountDown::elapsedTime = 0.0f;							//sets the count down time to 0
 
 	while (!IsExiting())									//main loop
@@ -98,11 +90,6 @@ void Game::GameLoop()
 
 		switch (gameState)									//game state manager
 		{
-			/*case Game::ShowingSplash:						//shows the splash 
-			{
-				ShowSplashScreen();
-				break;
-			}*/
 			case Game::ShowingMenu:							// shows the menu 
 			{
 				ShowMainMenu();
@@ -223,30 +210,21 @@ void Game::ShowMainMenu()
 		break;
 	}
 }
-/*void Game::ShowSplashScreen()
-{
-	std::cout << "SHOWING SPLASH" << std::endl;
-	SplashScreen splash;
-	splash.Show(window);
-	gameState = Game::ShowingMenu;
-}*/
+
+
+
+
+
 const GameObjectManager& Game::getGameObjectManager()
 {
 	return Game::gameObjectManager;
 }
-/*float Game::getElapsedTime()
-{
-	return elapsedTime.getElapsedTime().asSeconds();
 
-}*/
+
 unsigned int Game::AIScore = 0;
 unsigned int Game:: PlayerScore = 0;
 Game::GameState Game::gameState = Game::Uninzialized;
 sf::RenderWindow Game::window;
-#ifdef DEBUG
-	SideScrollBar* Game::bar;
-#endif // DEBUG
 GameObjectManager Game::gameObjectManager;
 bool Game::BH = false;
 sf::Music Game::music;
-//bool Game::splashShowed = false;

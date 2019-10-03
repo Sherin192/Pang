@@ -24,7 +24,7 @@ private:
 
 public:
 	GameObject();
-	virtual ~GameObject();
+	virtual ~GameObject() = default;
 	virtual void load(std::string fileName);
 	virtual void draw(sf::RenderWindow& window);
 	virtual void update(float elapsedTime);

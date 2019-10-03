@@ -1,9 +1,5 @@
 #include "gameObjectManager.h"
 #include "Game.h"
-GameObjectManager::GameObjectManager()
-{
-
-}
 GameObjectManager::~GameObjectManager()
 {
 	std::for_each(gameObjects.begin(),gameObjects.end(),GameObjectDeallocator());

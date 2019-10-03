@@ -32,8 +32,8 @@ private:
 	//bool hit(sf::Vector2i mousePosition, sf::RectangleShape rectangle);
 public:
 	static int counter;
-	//SideScrollBar();
 	SideScrollBar(float* startingValue, const float maxValue, const std::string name);
+	~SideScrollBar();
 	void initialise(sf::RenderWindow &window);
 	void update(sf::RenderWindow &window);
 	void reduce(sf::RenderWindow& window);

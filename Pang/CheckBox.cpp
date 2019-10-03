@@ -8,10 +8,7 @@ CheckBox::CheckBox()
 	getSprite().setOrigin(sf::Vector2f(16, 17));
 	isOn = false;
 }
-CheckBox::~CheckBox()
-{
 
-}
 void CheckBox::update(bool hit)
 {
 	std::cout << hit << std::endl;

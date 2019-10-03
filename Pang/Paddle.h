@@ -13,7 +13,6 @@ public:
 	
 	int score;
 	Paddle();
-	~Paddle();
 	void update(float elapsedTime);
 	void draw(sf::RenderWindow &wnindow);
 	float getVelocity() const;

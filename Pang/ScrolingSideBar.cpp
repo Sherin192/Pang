@@ -14,6 +14,15 @@ SideScrollBar::SideScrollBar(float* startingValue, const float maxValue, const s
 	position.y = 20.0f + 40.0f * SideScrollBar::counter;
 	counter++;
 }
+//
+
+SideScrollBar::~SideScrollBar()
+{
+	delete window;
+	delete currentValue;
+}
+
+
 //---------------------------------------------------------------------------------------------------------------------
 //------------------- Initialise is a method that sets all the paramiters for visual objects --------------------------
 void SideScrollBar::initialise(sf::RenderWindow &window)

@@ -10,7 +10,6 @@ class EndScreen
 public:
 	
 	EndScreen(std::string name);
-	~EndScreen();
 	void Show(sf::RenderWindow &window);
 	bool EndScreen::hit(sf::Vector2i mousePosition);
 };

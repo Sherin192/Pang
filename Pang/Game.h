@@ -22,21 +22,14 @@ class Game
 	static GameState gameState;
 	static sf::RenderWindow window;
 public:
-	#ifdef DEBUG
-	static SideScrollBar* bar;
-	#endif // DEBUG
 	static sf::Music music;
 	static MainMenu mainMenu;
 	static unsigned int AIScore;
 	static unsigned int PlayerScore;
-	//static float elapsedTimeSinceStart;
 	static void Start();
 	const static GameObjectManager& Game::getGameObjectManager();
-	//static float getElapsedTime();
 private:
-	//static bool splashShowed;
 	static bool BH;
-	//static void ShowSplashScreen();
 	static void ShowMainMenu();
 	static bool IsExiting();
 	static void GameLoop();

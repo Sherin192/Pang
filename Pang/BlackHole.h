@@ -21,7 +21,6 @@ class BlackHole:public GameObject
 
 public:
 	BlackHole();
-	~BlackHole();
 	void update(float elapsedTime);			
 private:
 	sf::Rect<float> getBoundingRect() const;	//overrided method from the base class to return blackHoleBB

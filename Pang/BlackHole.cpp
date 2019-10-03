@@ -10,12 +10,8 @@ BlackHole::BlackHole():size(32, 32)
 	blackHoleBB.setPosition(rand() % 424 + 301, rand() % 668 + 50);
 	getSprite().setPosition(blackHoleBB.getPosition());
 	
-	//blackHoleBB.setFillColor(sf::Color::Black);
 }
-BlackHole::~BlackHole()
-{
 
-}
 
 sf::Rect<float> BlackHole::getBoundingRect() const
 {

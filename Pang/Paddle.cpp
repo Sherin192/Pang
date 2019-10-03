@@ -7,10 +7,7 @@ Paddle::Paddle(): velocity(0), maxVelocity(200.0f)
 	assert(isLoaded());
 	getSprite().setOrigin(15,45);
 }
-Paddle::~Paddle()
-{
 
-}
 void Paddle::draw(sf::RenderWindow &window)
 {
 	GameObject::draw(window);
